@@ -53,109 +53,6 @@ a{
 .text-color{
     color: #343f52;
 }
-
-    /* .craft-text h1 {
-        max-width: 800px;
-        color: #343F52;
-        font-size: 50px;
-        font-family:poppins;
-        line-height: 57px;
-        font-weight: 600;
-        margin: auto;
-
-         letter-spacing: -0.2px;
-    } */
-    /* .craft-text p {
-        max-width: 700px;
-        color:  #60697B;
-        font-weight: 400;
-        font-size:24px;
-        line-height: 38px;
-        font-family:poppins;
-        padding-inline: ;
-        margin: auto;
-        display: flex;
-        margin-top: 20px;
-        
-        flex-wrap: wrap;
-
-    } */
-
-    /* .craft-sec {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-inline: auto;
-        margin-top: 50px;
-        word-spacing: normal;
-        padding: 100px;
-        position: relative;
-        flex-direction: column;
-    } */
-.buttan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.buttan  a:nth-child(1){
-    height: 57px;
-    width: 154px;
-    background: #747ED1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0;
-    border-radius: 50px;
-    color: white;
-    font-weight: 700;
-    margin-right: 10px;
-     transform: translateY(0px);
-    transition: 0.3s;
-
-
-}
- .btn-hover{
-    border-color: #747ED1;
-    color: #747ED1;
-     transform: translateY(0px);
-    transition: 0.3s;
- }
- .btn-hover:hover{
-     transform: translateY(-5px);
-     transition: 0.3s;
-     background-color: #747ED1;
-     color: white
- }
-.buttan :nth-child(2){
-     height: 57px;
-    width: 154px;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-     height: 57px;
-    width: 154px;
-    border: 2px solid #747ED1 ;
-    border-radius: 50px;
-    color:#747ED1 ;
-    padding:  13 28 13 28;
-    font-weight: 700;
-    transform: translateY(0px);
-    transition: 0.3s;
-    
-}
-.buttan a:nth-child(1):hover {
-   
-    transform: translateY(-5px);
-    transition: 0.3s;
-}
-.buttan a:nth-child(2):hover {
-    background-color: #747ED1;
-    color: white; 
-    transform: translateY(-5px);
-    transition: 0.3s;
-}
  main{
     margin-top: 20px;
  }
@@ -180,6 +77,9 @@ a{
     /* margin: auto; */
     padding: 100px 0;
 }
+.soft-purple{
+    color: #747ed1;
+}
 .left-cards{
     display: flex;
 }
@@ -189,9 +89,9 @@ a{
 
 .card1 img{
     border-radius: 10px;
-    margin-left: 80px; 
-    
+    margin-left: 80px;
 }
+
 .card_text h3{
     color:#343F52;
 }
@@ -228,7 +128,6 @@ a{
     border-radius: 100%;
     margin-inline: auto;
     font-size: 40px;
-
 }
 .card2 a {
     font-weight: 600;
