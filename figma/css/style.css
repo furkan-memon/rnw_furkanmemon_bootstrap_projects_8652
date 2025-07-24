@@ -11,3 +11,20 @@
    margin-top: px;
    height: 100%;
 } 
+.img-bec{
+  background-image: url(../asset/icons/Rectangle14.png);
+}
+.deals{
+  background: white;
+  opacity: 0.4;
+}
+.deals-1{
+  opacity: 1;
+}
+.price {
+    color: #7B5136;
+}
+
+footer {
+    background-color: #323334;
+}
