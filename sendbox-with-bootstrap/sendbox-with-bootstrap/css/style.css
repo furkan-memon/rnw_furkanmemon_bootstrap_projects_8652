@@ -32,7 +32,6 @@ ul {
     position:sticky;
 }
 
-
 a{
     text-decoration: none;
     
@@ -47,23 +46,8 @@ a{
 
 
 
-.craft-text{
-    padding: 15px;
-}
-.text-color{
-    color: #343f52;
-}
- main{
-    margin-top: 20px;
- }
 
-.img-box{
-    position: relative;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 3.5rem;
 
-}
 /* .service_section{
     padding: 100px 0
     margin: auto;
@@ -77,121 +61,22 @@ a{
     /* margin: auto; */
     padding: 100px 0;
 }
-.soft-purple{
+.btn{
     color: #747ed1;
+    border-color: #747ED1;
+    transition: all 0.3s ease-in-out;
 }
-.left-cards{
-    display: flex;
-}
-.right{
-    margin-top: 50px;
-}
-
-.card1 img{
-    border-radius: 10px;
-    margin-left: 80px;
-}
-
-.card_text h3{
-    color:#343F52;
-}
-.card_text p{
-    
-    color: #60697B;
-    padding: 20px 0;
-    font-weight: 500;
-}
-.card_first{
-    display: flex;
-    flex-direction: column;
-}
-
-.card2{
-    text-align: center;
-    width: 340px;
-    padding: 40px;
-    /* padding-inline: 70px; */
-    border-radius: 10px;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-    margin-left: 80px;
-  margin-top: 30px;
-  line-height: 29px;
+.btn:hover{
+    transform: translateY( -5px);
+    background: #747ED1;
+    color: #FFF;
+    border-color: #747ED1;
 
 }
-.card2_icon {
-    height: 70px;
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #c6caf1b2;
-    border-radius: 100%;
-    margin-inline: auto;
-    font-size: 40px;
-}
-.card2 a {
-    font-weight: 600;
-    color: #747ED1;
-}
-.card2_icon i{
-   color: #747ED1;
-}
 
-.card3{
-    text-align: center;
-    width: 340px;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-    margin-top: 60px;
-    margin-right: 10px;
-    margin-left: 30px;
-    line-height: 29px;
 
-}
-.card3_icon {
-    height: 70px;
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #c6caf1b2;
-    border-radius: 100%;
-    margin-inline: auto;
-    font-size: 40px;
-    
-  
-}
-.card3 a {
-    font-weight: 600;
-    color: #747ED1;
-}
-.card3_icon i{
-    
-   color: #747ED1;
-}
 
-.card4 img{
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 30px;  
-  
-}
-.right{
-  
-    margin-left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
- 
-.right h3{
-    max-width: 800px;
-    font-weight: 600;
-    font-size: 38px;
-   color:  #343F52;
-}
+
 .right_text_btn p:nth-child(2){
     display: flex;
     flex-wrap: wrap;
